@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Language: css */
+@layer components {
+    html,
+    body {
+     
+      font-family: 'Lato', sans-serif;
+    }
+    
+    a {
+      color: inherit;
+      text-decoration: none;
+      
+    }
+    
+    * {
+      box-sizing: border-box;
+      transition: all 300ms ease;
+      margin: 0px;
+      padding: 0px;
+    }
+}
